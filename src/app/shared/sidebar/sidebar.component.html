@@ -1,0 +1,80 @@
+<div class="leftside-menu leftside-menu-detached">
+
+    <div class="leftbar-user">
+        <a href="javascript: void(0);">
+            <img src="assets/images/users/avatar-1.jpg" alt="user-image" height="42" class="rounded-circle shadow-sm">
+            <span class="leftbar-user-name">Dominic Keller</span>
+        </a>
+    </div>
+
+    <!--- Sidemenu -->
+    <ul class="side-nav h-100">
+
+        <li class="side-nav-title side-nav-item">Push</li>
+
+        <li class="side-nav-item">
+            <a [routerLink]="['/Home/Push/NewPushMessage']" routerLinkActive="active" class="side-nav-link">
+                <i class=" uil-comment-plus"></i>
+                <span> Nuevo mensaje </span>
+            </a>
+        </li>
+        <li class="side-nav-item">
+            <a [routerLink]="['/Home/Push/PushHistorial']" routerLinkActive="active" class="side-nav-link">
+                <i class="uil-comment-lines"></i>
+                <span> Historial  </span>
+            </a>
+        </li>
+        <li class="side-nav-item">
+            <a [routerLink]="['/Home/Push/PushReport']" routerLinkActive="active" class="side-nav-link">
+                <i class="uil-horizontal-align-left"></i>
+                <span> Reportes </span>
+            </a>
+        </li>
+
+        <li class="side-nav-title side-nav-item">SMS</li>
+
+        <li class="side-nav-item">
+            <a [routerLink]="['/Home/Sms/NewSMS']" routerLinkActive="active" class="side-nav-link">
+                <i class=" uil-comment-plus"></i>
+                <span> Nuevo mensaje </span>
+            </a>
+        </li>
+        <li class="side-nav-item">
+            <a [routerLink]="['/Home/Sms/SMSHistorial']" routerLinkActive="active" class="side-nav-link">
+                <i class="uil-comment-lines"></i>
+                <span> Historial  </span>
+            </a>
+        </li>
+        <li class="side-nav-item">
+            <a [routerLink]="['/Home/Sms/SMSReports']" routerLinkActive="active" class="side-nav-link">
+                <i class="uil-horizontal-align-left"></i>
+                <span> Reportes </span>
+            </a>
+        </li>
+
+        <li class="side-nav-title side-nav-item">Email</li>
+
+        <li class="side-nav-item">
+            <a [routerLink]="['/Home/Email/NewEmail']" routerLinkActive="active" class="side-nav-link">
+                <i class=" uil-comment-plus"></i>
+                <span> Nuevo mensaje </span>
+            </a>
+        </li>
+        <li class="side-nav-item">
+            <a [routerLink]="['/Home/Email/EmailHistorial']" routerLinkActive="active" class="side-nav-link">
+                <i class="uil-comment-lines"></i>
+                <span> Historial  </span>
+            </a>
+        </li>
+        <li class="side-nav-item">
+            <a [routerLink]="['/Home/Email/EmailReports']" routerLinkActive="active" class="side-nav-link">
+                <i class="uil-horizontal-align-left"></i>
+                <span> Reportes </span>
+            </a>
+        </li>
+    </ul>
+    <!-- End Sidebar -->
+    <div class="clearfix"></div>
+    <!-- Sidebar -left -->
+
+</div>

@@ -1,0 +1,40 @@
+<!-- Topbar Start -->
+<app-header></app-header>
+<!-- end Topbar -->
+
+<!-- Start Content-->
+<div class="container-fluid">
+
+    <!-- Begin page -->
+    <div class="wrapper">
+
+        <!-- ========== Left Sidebar Start ========== -->
+        <app-sidebar></app-sidebar>
+        <!-- Left Sidebar End -->
+
+        <div class="content-page">
+            <div class="content">
+
+                <router-outlet></router-outlet>
+
+            </div>
+            <!-- End Content -->
+
+            <!-- Footer Start -->
+            <footer class="footer">
+                <app-footer></app-footer>
+            </footer>
+            <!-- end Footer -->
+
+        </div>
+        <!-- content-page -->
+
+    </div>
+    <!-- end wrapper-->
+</div>
+<!-- END Container -->
+
+
+
+<div class="rightbar-overlay"></div>
+<!-- /End-bar -->
