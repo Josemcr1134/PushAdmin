@@ -1,1 +1,179 @@
-<p>sms-historial works!</p>
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+
+            <h4 class="page-title">SMS - Historial</h4>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="card">
+        <div class="card-body">
+            <ul class="nav nav-pills bg-nav-pills nav-justified mb-3">
+                <li class="nav-item">
+                    <a href="#home1" data-bs-toggle="tab" aria-expanded="false" class="nav-link  active rounded-0">
+                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                        <span class="d-none d-md-block">Historial</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#profile1" data-bs-toggle="tab" aria-expanded="true" class="nav-link rounded-0 ">
+                        <i class="mdi mdi-account-circle d-md-none d-block"></i>
+                        <span class="d-none d-md-block">Filtros</span>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane  show active" id="home1">
+                    <div class="app-search">
+                        <form>
+                            <div class="mb-2 position-relative">
+                                <input type="text" class="form-control" placeholder="Buscar...">
+                                <span class="mdi mdi-magnify search-icon"></span>
+                            </div>
+                        </form>
+                    </div>
+                    <table class="table table-hover table-centered mb-0">
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Público</th>
+                                <th>Hora de envío</th>
+                                <th>Tasa de apertura</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>11/04/2022</td>
+                                <td>35 personas</td>
+                                <td>11:30 pm</td>
+                                <td><span class="badge bg-primary">7 - 20%</span></td>
+                            </tr>
+                            <tr>
+                                <td>05/03/2022</td>
+                                <td>20 personas</td>
+                                <td>06:15 am</td>
+                                <td><span class="badge bg-primary">10 - 50%</span></td>
+                            </tr>
+                            <tr>
+                                <td>03/02/2022</td>
+                                <td>60 personas</td>
+                                <td>12:00 pm</td>
+                                <td><span class="badge bg-primary">45 - 75%</span></td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <nav>
+                        <ul class="pagination justify-content-end mt-2">
+                            <li class="page-item">
+                                <a class="page-link" href="javascript: void(0);" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript: void(0);">2</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript: void(0);">3</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript: void(0);">4</a></li>
+                            <li class="page-item"><a class="page-link" href="javascript: void(0);">5</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="javascript: void(0);" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="tab-pane" id="profile1">
+                    <div class="row mb-2">
+
+                        <div class="col-sm-6 col-md-4">
+                            <div class="">
+                                <form class="d-flex">
+                                    <div class="input-group">
+                                        <input type="number" placeholder="Tasa de apertura" class="form-control form-control-light">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <div class="">
+                                <form class="d-flex">
+                                    <div class="input-group">
+                                        <input type="date" class="form-control form-control-light" id="dash-daterange">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-md-4 ">
+                            <div class="">
+                                <form class="d-flex">
+                                    <div class="input-group">
+                                        <input type="time" class="form-control form-control-light" id="dash-daterange">
+                                    </div>
+                                    <a href="javascript: void(0);" class="btn btn-primary ms-2">
+                                           Filtrar
+                                    </a>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-danger text-center" role="alert">
+                        <h4 class="alert-heading">No encontramos registros con esos parámetros</h4>
+                        <p></p>
+                        <p class="mb-0">Vuelve a intentarlo</p>
+                    </div>
+                    <table class="table table-hover table-centered mb-0">
+                        <thead>
+                            <tr>
+                                <th>Fecha</th>
+                                <th>Público</th>
+                                <th>Hora de envío</th>
+                                <th>Tasa de apertura</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>11/04/2022</td>
+                                <td>35 personas</td>
+                                <td>11:30 pm</td>
+                                <td><span class="badge bg-primary">7 - 20%</span></td>
+                            </tr>
+                            <tr>
+                                <td>05/03/2022</td>
+                                <td>20 personas</td>
+                                <td>06:15 am</td>
+                                <td><span class="badge bg-primary">10 - 50%</span></td>
+                            </tr>
+                            <tr>
+                                <td>03/02/2022</td>
+                                <td>60 personas</td>
+                                <td>12:00 pm</td>
+                                <td><span class="badge bg-primary">45 - 75%</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <nav>
+                        <ul class="pagination justify-content-end mt-2">
+                            <li class="page-item">
+                                <a class="page-link" href="javascript: void(0);" aria-label="Previous">
+                                    <span aria-hidden="true">&laquo;</span>
+                                </a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="javascript: void(0);">1</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="javascript: void(0);" aria-label="Next">
+                                    <span aria-hidden="true">&raquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

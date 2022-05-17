@@ -38,7 +38,7 @@
                     </a>
 
                     <!-- item-->
-                    <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <a data-bs-toggle="modal" data-bs-target="#change-password-modal" class="dropdown-item notify-item " style="cursor: pointer;">
                         <i class="mdi mdi-account-edit me-1"></i>
                         <span>Cambia contraseña</span>
                     </a>
@@ -56,3 +56,46 @@
 
     </div>
 </div>
+
+<!-- ========= ===================== =========== -->
+<!-- ========= ===================== =========== -->
+<!-- ========= CHANGE PASSWORD MODAL =========== -->
+<!-- ========= ===================== =========== -->
+<!-- ========= ===================== =========== -->
+<div id="change-password-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="text-center mt-2 mb-4">
+                    <a href="index.html" class="text-success">
+                        <span><img src="assets/images/logo-dark.png" alt="" height="18"></span>
+                    </a>
+                </div>
+
+                <form action="#" class="ps-3 pe-3">
+
+                    <div class="mb-3">
+                        <label for="current-password" class="form-label">Contraseña actual</label>
+                        <input class="form-control" type="text" id="current-password" required="" placeholder="john@deo.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password1" class="form-label">Nueva contraseña</label>
+                        <input class="form-control" type="password" required="" id="password1" placeholder="Enter your password">
+                    </div>
+
+
+
+                    <div class="mb-3 text-center">
+                        <button class="btn rounded-pill btn-primary" type="submit">Guardar</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+        <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
