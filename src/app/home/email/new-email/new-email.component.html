@@ -1,1 +1,179 @@
-<p>new-email works!</p>
+<div class="row">
+    <div class="col-12">
+        <div class="page-title-box">
+
+            <h4 class="page-title">Push - Nuevo mensaje</h4>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="card">
+        <div class="card-body">
+            <ul class="nav nav-pills bg-nav-pills nav-justified mb-3">
+                <li class="nav-item">
+                    <a href="#manualSelection" data-bs-toggle="tab" aria-expanded="false" class="nav-link rounded-0 active">
+                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                        <span class="d-none d-md-block">Selección manual </span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#UsersGroup" data-bs-toggle="tab" aria-expanded="true" class="nav-link rounded-0 ">
+                        <i class="mdi mdi-account-circle d-md-none d-block"></i>
+                        <span class="d-none d-md-block">Grupo de usuarios</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#InterestGroup" data-bs-toggle="tab" aria-expanded="true" class="nav-link rounded-0 ">
+                        <i class="mdi mdi-account-circle d-md-none d-block"></i>
+                        <span class="d-none d-md-block">Grupo por interés</span>
+                    </a>
+                </li>
+
+
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane fade show active" id="manualSelection">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="example-select" class="form-label">País</label>
+                                    <select class="form-select" id="example-select">
+                                    <option>Colombia</option>
+                                    <option>Argentina</option>
+                                    <option>Brasil</option>
+                                </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="example-textarea" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="example-textarea" rows="5"></textarea>
+                                    <span class="help-block"><small>Caracteres: <b class="text-primary">0</b></small></span>
+                                </div>
+
+
+                            </form>
+                        </div>
+                        <!-- end col -->
+                        <div class="col-lg-6">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Contactos</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Insertar link</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-sm-12">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="UsersGroup">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Grupos</label>
+                                    <select class="form-select" id="example-select">
+                                      <option>Grupo 1</option>
+                                      <option>Grupo 2 </option>
+                                      <option>Grupo 3</option>
+                                  </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="example-textarea" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="example-textarea" rows="5"></textarea>
+                                    <span class="help-block"><small>Caracteres: <b class="text-primary">0</b></small></span>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-lg-6">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Insertar link</label>
+                                    <input class="form-control" type="text">
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="col-sm-12">
+
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="InterestGroup">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="example-select" class="form-label">País</label>
+                                    <select class="form-select" id="example-select">
+                                      <option>Colombia</option>
+                                      <option>Argentina</option>
+                                      <option>Brasil</option>
+                                  </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="example-textarea" class="form-label">Mensaje</label>
+                                    <textarea class="form-control" id="example-textarea" rows="5"></textarea>
+                                    <span class="help-block"><small>Caracteres: <b class="text-primary">0</b></small></span>
+                                </div>
+
+                            </form>
+                        </div>
+                        <!-- end col -->
+
+                        <div class="col-lg-6">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Insertar link</label>
+                                    <input class="form-control" type="text">
+                                </div>
+                                <label for="example-textarea" class="form-label">Interéses</label>
+
+                                <div class="form-check mb-2">
+                                    <input type="checkbox" class="form-check-input" id="customCheckcolor1">
+                                    <label class="form-check-label" for="customCheckcolor1">Deportes</label>
+                                </div>
+                                <div class="form-check form-checkbox-success mb-2">
+                                    <input type="checkbox" class="form-check-input" id="customCheckcolor2">
+                                    <label class="form-check-label" for="customCheckcolor2">Salud</label>
+                                </div>
+                                <div class="form-check form-checkbox-info mb-2">
+                                    <input type="checkbox" class="form-check-input" id="customCheckcolor3">
+                                    <label class="form-check-label" for="customCheckcolor3">Videojuegos</label>
+                                </div>
+                                <div class="form-check form-checkbox-secondary mb-2">
+                                    <input type="checkbox" class="form-check-input" id="customCheckcolor6">
+                                    <label class="form-check-label" for="customCheckcolor6">NFT</label>
+                                </div>
+                                <div class="form-check form-checkbox-warning mb-2">
+                                    <input type="checkbox" class="form-check-input" id="customCheckcolor4">
+                                    <label class="form-check-label" for="customCheckcolor4">Criptomonedas</label>
+                                </div>
+
+                            </form>
+                        </div>
+                        <div class="col-sm-12">
+
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                        <!-- end col -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
