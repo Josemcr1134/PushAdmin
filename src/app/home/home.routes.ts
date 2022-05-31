@@ -1,7 +1,7 @@
 import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { PushModule } from './push/push.module';
 import { HomeComponent } from './home.component';
+import { ConfigModule } from './config/config.module';
 
 
 const routes: Routes = [
@@ -18,8 +18,10 @@ const routes: Routes = [
     },{
       path: 'Sms',
       loadChildren:() => import('./sms/sms.module').then(m => m.SMSModule)
-    },
-    {
+    },{
+      path: 'Config',
+      loadChildren:() => import('./config/config.module').then(m => m.ConfigModule)
+    }, {
       path: '**', redirectTo: 'Push'
     }
    ]
